@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SportAdmin Activity Helper</title>
+    <style>
+      :root {
+        --bg: #f4f6f8;
+        --surface: #ffffff;
+        --text: #10212b;
+        --muted: #526471;
+        --accent: #0f766e;
+        --accent-dark: #115e59;
+        --border: #d6dde3;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, sans-serif;
+        color: var(--text);
+        background:
+          radial-gradient(circle at 10% 10%, #d9efe9 0%, transparent 45%),
+          radial-gradient(circle at 85% 0%, #d8e8f7 0%, transparent 35%),
+          var(--bg);
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+      }
+
+      main {
+        width: min(700px, 100%);
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 28px;
+        box-shadow: 0 12px 30px rgba(18, 45, 61, 0.1);
+      }
+
+      h1 {
+        margin: 0 0 10px;
+        font-size: clamp(1.6rem, 3vw, 2.1rem);
+      }
+
+      p {
+        margin: 0 0 14px;
+        line-height: 1.55;
+      }
+
+      .cta {
+        display: inline-block;
+        margin: 12px 0 16px;
+        background: var(--accent);
+        color: #fff;
+        text-decoration: none;
+        font-weight: 700;
+        padding: 12px 16px;
+        border-radius: 10px;
+        transition: background 120ms ease;
+      }
+
+      .cta:hover,
+      .cta:focus-visible {
+        background: var(--accent-dark);
+      }
+
+      .muted {
+        color: var(--muted);
+      }
+
+      code {
+        background: #eef2f5;
+        border: 1px solid #dde5ec;
+        border-radius: 6px;
+        padding: 2px 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>SportAdmin Activity Helper</h1>
+      <p>
+        Install the Tampermonkey userscript directly from GitHub Pages.
+      </p>
+      <p>
+        <a class="cta" href="./sportadmin-helper.user.js">Install or update script</a>
+      </p>
+      <p class="muted">
+        If nothing happens when clicking install, verify Tampermonkey is installed and
+        enabled in your browser.
+      </p>
+      <p class="muted">
+        Script URL: <code>/sportadmin-helper.user.js</code>
+      </p>
+    </main>
+  </body>
+</html>
