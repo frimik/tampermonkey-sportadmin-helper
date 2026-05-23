@@ -392,7 +392,7 @@
 
     panel.style.position = "sticky";
     panel.style.top = "8px";
-    panel.style.zIndex = "9999";
+    panel.style.zIndex = "10";
     panel.style.margin = "8px 0";
     panel.style.padding = "10px";
     panel.style.border = "1px solid #dbe2ea";
