@@ -23,7 +23,7 @@
     minAllowedYear: 1900,
     maxAllowedYear: 2099,
     logPrefix: "[SA Helper]",
-    logLevel: "debug",
+    logLevel: "error",
   };
 
   const state = {
