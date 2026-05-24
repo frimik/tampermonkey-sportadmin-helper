@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         SportAdmin Activity Helper
 // @namespace    https://kansli.sportadmin.se/
-// @version      2026.05.2
+// @version      2026.05.3
 // @description  Adds auto-detected year buttons to quickly select/deselect participants by birth year in the activity list.
 // @author       Mikael Frid
 // @match        https://admin.sportadmin.se/callings/edit*
