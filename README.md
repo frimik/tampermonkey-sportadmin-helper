@@ -24,6 +24,8 @@ Direct install URL:
 - Quick actions for selecting or deselecting all visible participants.
 - Auto-detected birth-year buttons for fast group toggling.
 
+<img width="605" height="378" alt="image" src="https://github.com/user-attachments/assets/d67ca3ef-aed8-4bcd-bfe7-11fba4c70b9c" />
+
 ## Updates
 
 The script checks for updates from GitHub Pages through its metadata (`@updateURL` and `@downloadURL`).
